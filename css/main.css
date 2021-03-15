@@ -91,10 +91,25 @@ textarea {
 
 /* ----------- General ----------*/
 
+body {
+  background: blue;
+}
+
+
+
+/* ---------- Header ----------*/
+
+
+img .logo {
+  border-radius: 0;
+}
+
+
+
+
 img {
   border-radius: 50%;
   max-width: 200px;
-
 }
 
 
