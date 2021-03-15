@@ -172,6 +172,7 @@ footer {
   justify-content: center;
   align-items: left;
   flex-flow: row wrap;
+
 }
 
 header {
@@ -194,20 +195,10 @@ header figure img {
   max-width: 200px;
 }
 
+
 header nav {
   width: 30;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
