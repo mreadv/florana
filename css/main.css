@@ -91,26 +91,154 @@ textarea {
 
 /* ----------- General ----------*/
 
+html {
+  font-size: 16px;
+}
+
 body {
-  background: blue;
+  font-size: 1em;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #393939;
+  text-align: left;
 }
 
-
-
-/* ---------- Header ----------*/
-
-
-img .logo {
-  border-radius: 0;
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
+a {
+  color: #393939;
+  text-decoration: none;
+}
 
+h1 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.75em;
+}
 
+h2 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+h3 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.25em;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.375;
+}
 
 img {
+
+}
+
+figure {
+  margin: 0;
+}
+
+address {
+  font-style: normal;
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+.container {
+  min-width: 360px;
+}
+
+/* ---------- Base Header & Footer Styles ----------*/
+
+
+header,
+footer {
+  background-color: #F8F8F5;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-flow: row wrap;
+}
+
+header {
+  padding: 40px 0;
+}
+
+header figure {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header figure img {
+  width: 45%;
+}
+
+.logo img {
+  max-width: 200px;
+}
+
+header nav {
+  width: 30;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------- Main (Welcome) ----------*/
+
+
+#about img  {
   border-radius: 50%;
   max-width: 200px;
 }
+
+
+
+
+/* Hide Tablet Content */
+
+.tablet-content {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .tablet-content {
+    display:block;
+  }
+}
+
+
+
 
 
 
