@@ -122,7 +122,7 @@ h1 {
 
 h2 {
   font-family: 'Nunito Sans', sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1.5em;
 }
 
@@ -175,8 +175,19 @@ footer {
 
 }
 
+
+
+
+/* ---------- Header Styles ---------- */
+
 header {
-  padding: 40px 0;
+  align-items: flex-end;
+  padding: 30px 0 0 0;
+
+}
+
+header .content-wrapper {
+  width: 100%;
 }
 
 header figure {
@@ -197,10 +208,57 @@ header figure img {
 
 
 header nav {
-  width: 30;
+  background: #FF8B8B;
+  margin-top: 20px;
+  width: 100%;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+header nav ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 3px solid white;
+  min-height: 40px;
+  text-align: center;
+  width: 100%;
+
 }
 
 
+
+
+/* ---------- Main (Hero) ----------*/
+
+#hero {
+  border-bottom: 10px solid #FFE693;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
+  background: url('../img/hero-tulips-cr.jpg') center no-repeat #FFe693;
+  min-height: 125px;
+}
+
+#hero div {
+  border-radius: 4px;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.85);
+  width: 95%; 
+}
+
+#hero h1 {
+  color: #FF8B8B;
+  font-weight: 400;
+  font-style: italic;
+}
 
 
 
@@ -208,9 +266,112 @@ header nav {
 /* ---------- Main (Welcome) ----------*/
 
 
-#about img  {
+#welcome img  {
   border-radius: 50%;
   max-width: 200px;
+}
+
+#welcome h2 {
+  display: flex;
+  margin: 0 0 20px 0;
+  width: 100%;
+}
+
+
+#welcome p {
+  margin-top: 0;
+}
+
+
+.welcome-flex-container {
+  display: flex;
+  justify-content: center;
+  
+}
+
+#welcome .content-wrapper {
+  padding: 50px 0 50px 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 80%;
+}
+
+
+
+
+/* ---------- Footer Styles ---------- */
+
+
+footer {
+  background: #BDC7B7;
+}
+
+footer .content-wrapper {
+  margin: 0;
+  padding: 50px 0 50px  0;
+}
+
+footer .footer-content h2 {
+  display: flex;
+  width: 100%;
+}
+
+footer h2 {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 30px 0;
+  width: 100%;
+}
+
+footer .contact-info {
+  border: 1px solid pink;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+footer .social {
+  border: 1px solid pink;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+footer .contact-info h3,
+footer .contact-info p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+footer .contact-info h3 {
+
+  margin: 0 0 10px 0;
+}
+
+footer .contact-info p {
+  margin: 0 0 30px 0;
+}
+
+footer .copyright {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+footer .social-icons p {
+  font-size: 3em;
+}
+
+footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  color: #333;
 }
 
 
