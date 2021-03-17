@@ -181,7 +181,6 @@ footer {
 /* ---------- Header Styles ---------- */
 
 header {
-  align-items: flex-end;
   padding: 30px 0 0 0;
 
 }
@@ -244,10 +243,11 @@ header nav ul li {
   flex-flow: row wrap;
   align-items: center;
   background: url('../img/hero-tulips-cr.jpg') center no-repeat #FFe693;
+  background-size: cover;
   min-height: 125px;
 }
 
-#hero div {
+#hero .content-wrapper {
   border-radius: 4px;
   display: flex;
   background-color: rgba(255, 255, 255, 0.85);
@@ -256,8 +256,7 @@ header nav ul li {
 
 #hero h1 {
   color: #FF8B8B;
-  font-weight: 400;
-  font-style: italic;
+  font-weight: 700;
 }
 
 
@@ -363,11 +362,11 @@ footer .copyright {
   justify-content: center;
 }
 
-footer .social-icons p {
+footer .social p {
   font-size: 3em;
 }
 
-footer .social-icons a {
+footer .social a {
   width: 40px;
   height: 40px;
   text-decoration: none;
@@ -391,6 +390,109 @@ footer .social-icons a {
 
 
 
+
+ /* Tablet Styles Here */
+
+ @media screen and (min-width: 768px) {
+
+  @media screen and (min-width: 768px) {
+    #tablet-content {
+      display:block;
+    }
+
+    header .content-wrapper, 
+    #hero .content-wrapper,
+    #welcome .content-wrapper {
+      max-width: 720px;
+
+    }
+
+
+
+header {
+  border-bottom: 10px solid #FFE693;
+}
+
+header .content-wrapper {
+  justify-content: space-between;
+  margin-bottom: 15px;
+  width: 85%;
+}
+
+header figure {
+  justify-content: flex-start;
+  border: 1px solid green;
+}
+
+header nav {
+  background-color: #F8F8F5;
+  width: 50%;
+}
+
+header nav ul {
+  justify-content: space-around;
+  max-width: 720px;
+}
+
+header nav ul li {
+  display: flex;
+  font-size: 1.125em;
+  justify-content: center;
+  align-items: center;
+  border-top: none;
+  min-height: 40px;
+  text-align: center;
+  width: 30%;
+}
+
+
+
+
+/* ---------- Main (Hero) ---------- */
+
+#hero {
+  border-bottom: none;
+  min-height: 250px;
+  justify-content: flex-start;
+}
+
+#hero .content-wrapper {
+  width: 50%;
+}
+
+
+
+
+/* ---------- Main (Welcome) ---------- */
+
+
+#welcome img {
+  max-width: 250px;
+}
+
+#welcome h2 {
+  font-size: 2em;
+}
+
+#welcome .paragraphs {
+  width: 50%;
+}
+
+
+
+#welcome .welcome-flex-container {
+  justify-content: space-between;
+}
+
+
+
+@media screen and (min-width: 1200px) {
+
+   #hero .content-wrapper,
+   #welcome .content-wrapper {
+      max-width: 960px;
+      border: 1px solid red;
+    }
 
 
 
