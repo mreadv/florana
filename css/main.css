@@ -128,7 +128,7 @@ h2 {
 
 h3 {
   font-family: 'Nunito Sans', sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1.25em;
 }
 
@@ -228,8 +228,9 @@ header nav ul li {
   min-height: 40px;
   text-align: center;
   width: 100%;
-
 }
+
+
 
 
 
@@ -266,6 +267,7 @@ header nav ul li {
 
 
 #welcome img  {
+  border: 3px solid #FF8B8B;
   border-radius: 50%;
   max-width: 200px;
 }
@@ -294,7 +296,6 @@ header nav ul li {
   justify-content: flex-start;
   align-items: center;
   flex-flow: row wrap;
-  width: 80%;
 }
 
 
@@ -320,25 +321,18 @@ footer .footer-content h2 {
 footer h2 {
   display: flex;
   justify-content: center;
-  margin: 0 0 30px 0;
+  margin: 0 0 50px 0;
   width: 100%;
 }
 
 footer .contact-info {
-  border: 1px solid pink;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
   width: 100%;
 }
 
-footer .social {
-  border: 1px solid pink;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  width: 100%;
-}
+
 
 footer .contact-info h3,
 footer .contact-info p {
@@ -360,6 +354,15 @@ footer .copyright {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+footer .social {
+  border: 1px solid pink;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+  min-width: 200px;
 }
 
 footer .social p {
@@ -407,6 +410,10 @@ footer .social a {
 
     }
 
+header nav ul li a:hover {
+  border-top: 1px solid #FF8B8B;
+  border-bottom: 1px solid #FF8B8B;
+}
 
 
 header {
@@ -421,7 +428,6 @@ header .content-wrapper {
 
 header figure {
   justify-content: flex-start;
-  border: 1px solid green;
 }
 
 header nav {
@@ -466,6 +472,10 @@ header nav ul li {
 /* ---------- Main (Welcome) ---------- */
 
 
+#welcome {
+    border-bottom: 10px solid #FFE693;
+}
+
 #welcome img {
   max-width: 250px;
 }
@@ -475,7 +485,7 @@ header nav ul li {
 }
 
 #welcome .paragraphs {
-  width: 50%;
+  width: 55%;
 }
 
 
