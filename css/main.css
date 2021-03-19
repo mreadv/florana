@@ -181,7 +181,7 @@ footer {
 /* ---------- Header Styles ---------- */
 
 header {
-  padding: 30px 0 0 0;
+  padding: 15px 0 15px 0;
 
 }
 
@@ -394,118 +394,6 @@ footer .social a {
 
 
 
- /* Tablet Styles Here */
-
- @media screen and (min-width: 768px) {
-
-  @media screen and (min-width: 768px) {
-    #tablet-content {
-      display:block;
-    }
-
-    header .content-wrapper, 
-    #hero .content-wrapper,
-    #welcome .content-wrapper {
-      max-width: 720px;
-
-    }
-
-header nav ul li a:hover {
-  border-top: 1px solid #FF8B8B;
-  border-bottom: 1px solid #FF8B8B;
-}
-
-
-header {
-  border-bottom: 10px solid #FFE693;
-}
-
-header .content-wrapper {
-  justify-content: space-between;
-  margin-bottom: 15px;
-  width: 85%;
-}
-
-header figure {
-  justify-content: flex-start;
-}
-
-header nav {
-  background-color: #F8F8F5;
-  width: 50%;
-}
-
-header nav ul {
-  justify-content: space-around;
-  max-width: 720px;
-}
-
-header nav ul li {
-  display: flex;
-  font-size: 1.125em;
-  justify-content: center;
-  align-items: center;
-  border-top: none;
-  min-height: 40px;
-  text-align: center;
-  width: 30%;
-}
-
-
-
-
-/* ---------- Main (Hero) ---------- */
-
-#hero {
-  border-bottom: none;
-  min-height: 250px;
-  justify-content: flex-start;
-}
-
-#hero .content-wrapper {
-  width: 50%;
-}
-
-
-
-
-/* ---------- Main (Welcome) ---------- */
-
-
-#welcome {
-    border-bottom: 10px solid #FFE693;
-}
-
-#welcome img {
-  max-width: 250px;
-}
-
-#welcome h2 {
-  font-size: 2em;
-}
-
-#welcome .paragraphs {
-  width: 55%;
-}
-
-
-
-#welcome .welcome-flex-container {
-  justify-content: space-between;
-}
-
-
-
-@media screen and (min-width: 1200px) {
-
-   #hero .content-wrapper,
-   #welcome .content-wrapper {
-      max-width: 960px;
-      border: 1px solid red;
-    }
-
-
-
 
 /* ==========================================================================
    Helper classes
@@ -594,6 +482,174 @@ header nav ul li {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+
+
+
+ /* Tablet Styles Here */
+
+ @media screen and (min-width: 768px) {
+
+  @media screen and (min-width: 768px) {
+    #tablet-content {
+      display:block;
+    }
+
+     .content-wrapper {
+      max-width: 720px;
+
+    }
+
+
+
+
+
+/* ---------- General ---------- */
+
+
+
+
+h2 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.125em;
+}
+
+
+
+/* ---------- Header/Footer main styles ---------- */
+
+
+
+
+header nav ul li a:hover {
+  border-top: 1px solid #FF8B8B;
+  border-bottom: 1px solid #FF8B8B;
+}
+
+
+header {
+  border-bottom: 10px solid #FFE693;
+}
+
+header .content-wrapper {
+  justify-content: space-between;
+  margin-bottom: 15px;
+  width: 85%;
+}
+
+header figure {
+  justify-content: flex-start;
+}
+
+header nav {
+  background-color: #F8F8F5;
+  width: 50%;
+}
+
+header nav ul {
+  justify-content: space-around;
+  max-width: 720px;
+}
+
+header nav ul li {
+  display: flex;
+  font-size: 1.125em;
+  justify-content: center;
+  align-items: center;
+  border-top: none;
+  min-height: 40px;
+  text-align: center;
+  width: 30%;
+}
+
+
+
+
+/* ---------- Main (Hero) ---------- */
+
+#hero {
+  border-bottom: none;
+  min-height: 250px;
+  justify-content: flex-start;
+}
+
+#hero .content-wrapper {
+  width: 50%;
+}
+
+
+
+
+/* ---------- Main (Welcome) ---------- */
+
+
+#welcome {
+    border-bottom: 10px solid #FFE693;
+}
+
+#welcome img {
+  max-width: 250px;
+}
+
+
+
+#welcome .paragraphs {
+  width: 55%;
+}
+
+
+
+#welcome .welcome-flex-container {
+  justify-content: space-between;
+}
+
+
+
+#mobile-content { 
+  display:none; 
+}
+@media screen and (max-width: 767px) {
+  #mobile-content { 
+    display:block; }
+  }
+
+
+
+/* ---------- Desktop Styles ----------*/
+
+
+@media screen and (min-width: 1200px) {
+
+   .content-wrapper {
+      max-width: 960px;
+    }
+
+
+
+
+/* ---------- General ----------*/
+
+
+h2 {
+  font-size: 2.25em;
+}
+
+
+/* ---------- Main Hero ----------*/
+
+
+#hero {
+  min-height: 350px;
+}
+
+
+/* ---------- Main Welcome ----------*/
+
+
+
+
 
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
