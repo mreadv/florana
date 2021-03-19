@@ -181,11 +181,12 @@ footer {
 /* ---------- Header Styles ---------- */
 
 header {
-  padding: 15px 0 15px 0;
+  padding: 15px 0 0 0;
 
 }
 
 header .content-wrapper {
+  margin: 0;
   width: 100%;
 }
 
@@ -531,11 +532,11 @@ header nav ul li a:hover {
 
 header {
   border-bottom: 10px solid #FFE693;
+  padding: 15px 0 15px 0;
 }
 
 header .content-wrapper {
   justify-content: space-between;
-  margin-bottom: 15px;
   width: 85%;
 }
 
@@ -627,6 +628,11 @@ header nav ul li {
     }
 
 
+
+
+header .content-wrapper {
+  min-height: 200px;
+}
 
 
 /* ---------- General ----------*/
