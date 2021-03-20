@@ -279,26 +279,25 @@ header nav ul li {
   width: 100%;
 }
 
-
 #welcome p {
   margin-top: 0;
 }
 
-
-.welcome-flex-container {
-  display: flex;
-  justify-content: center;
-  
+#welcome .welcome-flex-container {
+ display: flex;
 }
 
 #welcome .content-wrapper {
   padding: 50px 0 50px 0;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-flow: row wrap;
 }
 
+#welcome .paragraphs {
+  width: 100%;
+}
+
+#welcome .paragraph {
+  width: 100%;
+}
 
 
 
@@ -597,18 +596,32 @@ header nav ul li {
 
 
 
-#welcome .paragraphs {
+#welcome .welcome-flex-container {
+ display: flex;
+ justify-content: space-between;
 
-  width: 55%;
+}
+
+#welcome .paragraphs { 
+  max-width: 60%;
 }
 
 
 
+
+#welcome .paragraphs {
+
+  width: ;
+}
+
+
+/*
 
 #welcome .welcome-flex-container {
   justify-content: space-between;
 
 }
+*/
 
 
 
@@ -664,19 +677,18 @@ h2 {
 }
 
 #welcome h2 {
- 
+  font-size: 2.5em;
 }
 
-#welcome .welcome-flex-container {
 
-}
 
 #welcome .paragraphs {
-
+  max-width: 65%;
 }
 
-#welcome figure {
-
+#welcome .welcome-img {
+  display: flex;
+  min-width:;
 }
 
 
