@@ -591,19 +591,23 @@ header nav ul li {
 }
 
 #welcome img {
+  display: flex;
   max-width: 250px;
 }
 
 
 
 #welcome .paragraphs {
+
   width: 55%;
 }
 
 
 
+
 #welcome .welcome-flex-container {
   justify-content: space-between;
+
 }
 
 
@@ -654,7 +658,26 @@ h2 {
 /* ---------- Main Welcome ----------*/
 
 
+#welcome .content-wrapper {
+  padding: 80px 0 80px 0;
 
+}
+
+#welcome h2 {
+ 
+}
+
+#welcome .welcome-flex-container {
+
+}
+
+#welcome .paragraphs {
+
+}
+
+#welcome figure {
+
+}
 
 
 @media only screen and (min-width: 35em) {
