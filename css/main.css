@@ -739,40 +739,7 @@ main .box-wrapper img {
 main .box-wrapper figure {
   display: flex;
   justify-content: flex-start;
-  
 }
-
-
-/*
-
-main .box-1 p,
-main .box-2 p,
-main .box-3 p {
-  max-width: 400px;
-  width: 80%;
-  margin-top: 0px;
-  text-align: center;
-}
-
-
-main .box-1,
-main .box-3 {
-  background: #F8F8F5;
-}
-
-*/
-
-
-
-
-
-
-/*
-.store-images .box-2 figure {
-float: left;
-}
-
-*/
 
 
 
@@ -785,6 +752,9 @@ float: left;
   #mobile-content { 
     display:block; }
   }
+
+
+
 
 
 
@@ -842,6 +812,20 @@ h2 {
   display: flex;
   min-width:;
 }
+
+
+
+/* ---------- Main Store ----------*/
+
+.store-images .box-wrapper {
+  max-width: 900px;
+}
+
+.store-images .box-wrapper p {
+  max-width: 550px;
+}
+
+
 
 
 @media only screen and (min-width: 35em) {
