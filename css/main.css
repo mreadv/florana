@@ -267,35 +267,38 @@ header nav ul li {
 /* ---------- Main (Welcome) ----------*/
 
 
-#welcome img  {
+main img  {
   border: 3px solid #FF8B8B;
   border-radius: 50%;
   max-width: 200px;
+  display: flex;
+  justify-content: center;
 }
 
-#welcome h2 {
+.main-top h2 {
   display: flex;
   margin: 0 0 20px 0;
   width: 100%;
 }
 
-#welcome p {
+.main-top p {
   margin-top: 0;
 }
 
-#welcome .welcome-flex-container {
+.main-top .main-flex-container {
  display: flex;
+ border: 1px solid pink;
 }
 
-#welcome .content-wrapper {
+.main-top .content-wrapper {
   padding: 50px 0 50px 0;
 }
 
-#welcome .paragraphs {
+.main-top .paragraphs {
   width: 100%;
 }
 
-#welcome .paragraph {
+.main-top .paragraph {
   width: 100%;
 }
 
@@ -375,6 +378,59 @@ footer .social a {
   text-decoration: none;
   color: #333;
 }
+
+
+
+
+/* ---------- Main (Store) ---------- */
+
+main .store-images {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+main .box-1,
+main .box-2,
+main .box-3 {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
+  height: 400px;
+  width: 100%;
+}
+
+main .box-1 figure,
+main .box-2 figure,
+main .box-3 figure {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+main .box-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+main .box-wrapper p {
+  display: flex;
+  justify-content: center;
+  max-width: 400px;
+  width: 80%;
+  margin-top: 0px;
+  text-align: center;
+}
+
+
+main .box-1,
+main .box-3 {
+  background: #F8F8F5;
+}
+
 
 
 
@@ -576,8 +632,45 @@ header nav ul li {
 }
 
 #hero .content-wrapper {
-  width: 50%;
+  width: 100%;
+  min-height: 125px;
 }
+
+#hero .content-wrapper h1 {
+  font-size: 2.125em;
+  padding-left: 20px;
+}
+
+
+
+/* ---------- Main (Hero) ----------*/
+
+/*
+#hero {
+  border-bottom: 10px solid #FFE693;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
+  background: url('../img/hero-tulips-cr.jpg') center no-repeat #FFe693;
+  background-size: cover;
+  min-height: 125px;
+}
+
+#hero .content-wrapper {
+  border-radius: 4px;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.85);
+  width: 95%; 
+}
+
+#hero h1 {
+  color: #FF8B8B;
+  font-weight: 700;
+}
+
+
+*/
 
 
 
@@ -585,31 +678,31 @@ header nav ul li {
 /* ---------- Main (Welcome) ---------- */
 
 
-#welcome {
+.main-top .welcome {
     border-bottom: 10px solid #FFE693;
 }
 
-#welcome img {
+.main-top img {
   display: flex;
   max-width: 250px;
 }
 
 
 
-#welcome .welcome-flex-container {
+.main-top .main-flex-container {
  display: flex;
  justify-content: space-between;
 
 }
 
-#welcome .paragraphs { 
+.main-top .paragraphs { 
   max-width: 60%;
 }
 
 
 
 
-#welcome .paragraphs {
+.main-top .paragraphs {
 
   width: ;
 }
@@ -617,11 +710,71 @@ header nav ul li {
 
 /*
 
-#welcome .welcome-flex-container {
+.main-top .main-flex-container {
   justify-content: space-between;
 
 }
 */
+
+
+/* ---------- Main (Store) ---------- */
+
+
+
+main .box-wrapper {
+  display: flex;
+  align-items: center;
+  flex-flow: row;
+  justify-content: space-between;
+  height: 400px;
+  width: 100%;
+  max-width: 720px;
+}
+
+main .box-wrapper img {
+  max-width: 250px;
+}
+
+
+main .box-wrapper figure {
+  display: flex;
+  justify-content: flex-start;
+  
+}
+
+
+/*
+
+main .box-1 p,
+main .box-2 p,
+main .box-3 p {
+  max-width: 400px;
+  width: 80%;
+  margin-top: 0px;
+  text-align: center;
+}
+
+
+main .box-1,
+main .box-3 {
+  background: #F8F8F5;
+}
+
+*/
+
+
+
+
+
+
+/*
+.store-images .box-2 figure {
+float: left;
+}
+
+*/
+
+
 
 
 
@@ -671,22 +824,21 @@ h2 {
 /* ---------- Main Welcome ----------*/
 
 
-#welcome .content-wrapper {
+.main-top .content-wrapper {
   padding: 80px 0 80px 0;
 
 }
 
-#welcome h2 {
+.main-top h2 {
   font-size: 2.5em;
 }
 
 
-
-#welcome .paragraphs {
+.main-top .paragraphs {
   max-width: 65%;
 }
 
-#welcome .welcome-img {
+.main-top .welcome-img {
   display: flex;
   min-width:;
 }
