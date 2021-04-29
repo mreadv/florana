@@ -777,7 +777,9 @@ main .box-wrapper figure {
       max-width: 960px;
     }
 
-
+.main-flex-container {
+  min-width: 960px;
+}
 
 
 header .content-wrapper {
