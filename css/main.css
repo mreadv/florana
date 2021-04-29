@@ -391,6 +391,8 @@ main .store-images {
   justify-content: center;
 }
 
+
+
 main .box-1,
 main .box-2,
 main .box-3 {
@@ -402,12 +404,20 @@ main .box-3 {
   width: 100%;
 }
 
+
 main .box-1 figure,
 main .box-2 figure,
 main .box-3 figure {
+ 
   display: flex;
+
   justify-content: center;
   width: 100%;
+  height: auto;
+}
+
+main .store-images img {
+  align-self: center;
 }
 
 main .box-wrapper {
