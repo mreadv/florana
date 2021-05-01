@@ -167,7 +167,7 @@ address {
 
 header,
 footer {
-  background-color: #F8F8F5;
+  
   display: flex;
   justify-content: center;
   align-items: left;
@@ -588,6 +588,9 @@ p {
 
 
 
+header nav ul li a {
+  color: #FF8B8B;
+}
 
 header nav ul li a:hover {
   border-top: 1px solid #FF8B8B;
@@ -610,7 +613,7 @@ header figure {
 }
 
 header nav {
-  background-color: #F8F8F5;
+  background-color: #Ffffff;
   width: 50%;
 }
 
