@@ -115,8 +115,9 @@ a {
 }
 
 h1 {
+  color: 	#505050;
   font-family: 'Nunito Sans', sans-serif;
-  font-weight: 700;
+  font-weight: 200;
   font-size: 1.75em;
 }
 
@@ -134,7 +135,9 @@ h3 {
 
 p {
   font-size: 1em;
-  line-height: 1.375;
+  line-height: 1.6125;
+  font-weight: 300;
+  font-family: 'Lora';
 }
 
 img {
@@ -249,16 +252,20 @@ header nav ul li {
   min-height: 125px;
 }
 
+#hero .main-wrapper {
+  width: 60%;
+}
+
 #hero .content-wrapper {
   border-radius: 4px;
   display: flex;
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0.9);
   width: 95%; 
 }
 
 #hero h1 {
-  color: #FF8B8B;
-  font-weight: 700;
+  font-weight: 300;
+  padding: 0;
 }
 
 
@@ -279,6 +286,7 @@ main img  {
   display: flex;
   margin: 0 0 20px 0;
   width: 100%;
+  color:#FF8B8B;
 }
 
 .main-top p {
@@ -287,7 +295,6 @@ main img  {
 
 .main-top .main-flex-container {
  display: flex;
- border: 1px solid pink;
 }
 
 .main-top .content-wrapper {
@@ -342,6 +349,7 @@ footer .contact-info p {
   display: flex;
   justify-content: center;
   text-align: center;
+  
 }
 
 footer .contact-info h3 {
@@ -360,7 +368,6 @@ footer .copyright {
 }
 
 footer .social {
-  border: 1px solid pink;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -370,6 +377,7 @@ footer .social {
 
 footer .social p {
   font-size: 3em;
+  margin: 0;
 }
 
 footer .social a {
@@ -575,7 +583,7 @@ main .box-3 {
 
 
 h2 {
-  font-size: 2em;
+  font-size: 2.3125em;
 }
 
 p {
@@ -600,7 +608,7 @@ header nav ul li a:hover {
 
 header {
   border-bottom: 10px solid #FFE693;
-  padding: 15px 0 15px 0;
+  padding: 30px 0 30px 0;
 }
 
 header .content-wrapper {
@@ -633,6 +641,10 @@ header nav ul li {
   width: 30%;
 }
 
+footer .content-wrapper {
+  padding: 100px 0;
+}
+
 
 
 
@@ -647,6 +659,7 @@ header nav ul li {
 #hero .content-wrapper {
   width: 100%;
   min-height: 125px;
+
 }
 
 #hero .content-wrapper h1 {
@@ -691,9 +704,16 @@ header nav ul li {
 /* ---------- Main (Welcome) ---------- */
 
 
+.main-top .content-wrapper {
+  padding: 100px 0;
+}
+
+
 .main-top .welcome {
     border-bottom: 10px solid #FFE693;
 }
+
+
 
 .main-top img {
   display: flex;
@@ -731,6 +751,7 @@ header nav ul li {
 
 
 /* ---------- Main (Store) ---------- */
+
 
 
 
@@ -820,12 +841,16 @@ h2 {
 
 
 .main-top .paragraphs {
-  max-width: 65%;
+  max-width: 60%;
 }
 
 .main-top .welcome-img {
   display: flex;
   min-width:;
+}
+
+.main-top .welcome-img img {
+  min-width: 300px;
 }
 
 
