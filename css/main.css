@@ -473,6 +473,10 @@ main .box-3 {
   width: 100%;
 }
 
+#directions .content-wrapper,
+#directions .form {
+  justify-content: flex-start;
+}
 
 
 
