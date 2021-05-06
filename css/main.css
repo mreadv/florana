@@ -274,6 +274,7 @@ header nav ul li {
 
 
 
+
 /* ---------- Main (Welcome) ----------*/
 
 
@@ -393,6 +394,8 @@ footer .social a {
 
 
 
+
+
 /* ---------- Main (Store) ---------- */
 
 main .store-images {
@@ -452,6 +455,23 @@ main .box-3 {
   background: #F8F8F5;
 }
 
+
+
+/* ---------- Main Contact / Directions ---------- */
+
+
+.content-wrapper .form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin-bottom: 50px;
+}
+
+.content-wrapper .paragraphs {
+  width: 100%;
+}
 
 
 
@@ -654,7 +674,6 @@ footer .content-wrapper {
 /* ---------- Main (Hero) ---------- */
 
 #hero {
-  border-bottom: none;
   min-height: 250px;
   justify-content: flex-start;
 }
@@ -708,14 +727,13 @@ footer .content-wrapper {
 
 
 .main-top .content-wrapper {
-  padding: 100px 0;
+  padding: 100px 40px 100px 40px;
 }
 
 
-.main-top .welcome {
+.main-top  {
     border-bottom: 10px solid #FFE693;
 }
-
 
 
 .main-top img {
@@ -725,11 +743,7 @@ footer .content-wrapper {
 
 
 
-.main-top .main-flex-container {
- display: flex;
- justify-content: space-between;
 
-}
 
 .main-top .paragraphs { 
   max-width: 60%;
@@ -744,17 +758,16 @@ footer .content-wrapper {
 }
 
 
-/*
+
 
 .main-top .main-flex-container {
   justify-content: space-between;
 
 }
-*/
+
 
 
 /* ---------- Main (Store) ---------- */
-
 
 
 
@@ -833,18 +846,17 @@ h2 {
 /* ---------- Main Welcome ----------*/
 
 
-.main-top .content-wrapper {
-  padding: 80px 0 80px 0;
 
-}
+
 
 .main-top h2 {
-  font-size: 2.5em;
+  font-size: 2.75em;
 }
 
 
 .main-top .paragraphs {
   max-width: 60%;
+  
 }
 
 .main-top .welcome-img {
@@ -863,6 +875,9 @@ h2 {
 
 /* ---------- Main Store ----------*/
 
+
+
+
 .store-images .box-wrapper {
   max-width: 900px;
 }
@@ -872,6 +887,10 @@ h2 {
 }
 
 
+
+.store .content-wrapper .paragraphs {
+  max-width: 65%;
+}
 
 
 @media only screen and (min-width: 35em) {
