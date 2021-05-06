@@ -252,9 +252,11 @@ header nav ul li {
   min-height: 125px;
 }
 
+/*
 #hero .main-wrapper {
   width: 60%;
 }
+*/
 
 #hero .content-wrapper {
   border-radius: 4px;
@@ -267,6 +269,7 @@ header nav ul li {
   font-weight: 300;
   padding: 0;
 }
+
 
 
 
@@ -849,9 +852,12 @@ h2 {
   min-width:;
 }
 
-.main-top .welcome-img img {
+
+/*
+.main-top .welcome img {
   min-width: 300px;
 }
+*/
 
 
 
