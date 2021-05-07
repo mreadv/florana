@@ -459,9 +459,8 @@ main .box-3 {
 
 /* ---------- Main Contact / Directions ---------- */
 
-#directions h2 {
-  color:  #393939;
-}
+
+
 
 
 .content-wrapper .form {
@@ -471,6 +470,11 @@ main .box-3 {
   align-items: center;
   flex-flow: row wrap;
   margin-bottom: 50px;
+}
+
+.content-wrapper .input-text {
+  display: flex;
+  width: 100%;
 }
 
 .content-wrapper .paragraphs {
