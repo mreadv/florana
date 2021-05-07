@@ -461,27 +461,42 @@ main .box-3 {
 
 
 
-
-
-.content-wrapper .form {
+#directions .form {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  margin-bottom: 50px;
+  margin: 20px 0 30px 0;
+  
 }
 
 .content-wrapper .input-text {
   display: flex;
   flex-flow: row wrap;
+  margin-bottom: 25px;
   width: 100%;
 }
 
 .content-wrapper .input-text label,
-.content-wrapper .input-text input {
+.content-wrapper .input-text input,
+.content-wrapper .input-text textarea {
   display: flex;
   width: 100%;
+
+}
+
+#directions label {
+  margin-bottom: 5px;
+}
+
+
+#directions .form .input-field,
+#directions .form textarea  {
+  min-height: 40px;
+  color: lightslategray;
+  border: 2px solid #E26E6E;
+  border-radius: 5px;
 }
 
 .content-wrapper .paragraphs {
@@ -493,6 +508,9 @@ main .box-3 {
   justify-content: flex-start;
 }
 
+#directions input {
+
+}
 
 
 /* Hide Tablet Content */
