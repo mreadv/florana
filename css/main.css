@@ -474,6 +474,13 @@ main .box-3 {
 
 .content-wrapper .input-text {
   display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+.content-wrapper .input-text label,
+.content-wrapper .input-text input {
+  display: flex;
   width: 100%;
 }
 
