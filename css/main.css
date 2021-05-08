@@ -431,7 +431,7 @@ main .box-wrapper p {
   justify-content: center;
   max-width: 400px;
   width: 80%;
-  margin-top: 0px;
+ 
   text-align: center;
 }
 
@@ -489,6 +489,28 @@ main .box-3 {
 #directions .form {
   justify-content: flex-start;
 }
+
+
+
+/* ---------- Main Contact/Directions - (Map Area) ---------- */
+
+.map figure {
+  width: 100%;
+  height: 0;
+  padding-bottom: 80%;
+  overflow: hidden;
+  position: relative;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+
 
 
 
@@ -757,6 +779,12 @@ main .box-wrapper figure {
 }
 
 
+/* ---------- Main (Contact/Directions) Map ---------- */
+
+.map figure {
+  padding-bottom: 45.5%;
+}
+
 
 
 #mobile-content { 
@@ -849,6 +877,13 @@ h2 {
 
 .store .content-wrapper .paragraphs {
   max-width: 65%;
+}
+
+
+/* ---------- Main (Contact/Directions) Map ----------*/
+
+.map figure {
+  padding-bottom: 37.5%;
 }
 
 
