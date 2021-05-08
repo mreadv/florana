@@ -500,6 +500,10 @@ main .box-3 {
   border-radius: 5px;
 }
 
+#directions textarea {
+  max-height: 350px;
+}
+
 .content-wrapper .paragraphs {
   width: 100%;
 }
