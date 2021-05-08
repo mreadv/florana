@@ -405,8 +405,6 @@ main .store-images {
   justify-content: center;
 }
 
-
-
 main .box-1,
 main .box-2,
 main .box-3 {
@@ -418,13 +416,10 @@ main .box-3 {
   width: 100%;
 }
 
-
 main .box-1 figure,
 main .box-2 figure,
 main .box-3 figure {
- 
   display: flex;
-
   justify-content: center;
   width: 100%;
   height: auto;
@@ -449,7 +444,6 @@ main .box-wrapper p {
   text-align: center;
 }
 
-
 main .box-1,
 main .box-3 {
   background: #F8F8F5;
@@ -468,7 +462,6 @@ main .box-3 {
   align-items: center;
   flex-flow: row wrap;
   margin: 20px 0 30px 0;
-  
 }
 
 .content-wrapper .input-text {
@@ -483,7 +476,6 @@ main .box-3 {
 .content-wrapper .input-text textarea {
   display: flex;
   width: 100%;
-
 }
 
 #directions label {
@@ -508,9 +500,6 @@ main .box-3 {
   justify-content: flex-start;
 }
 
-#directions input {
-
-}
 
 
 /* Hide Tablet Content */
@@ -718,7 +707,6 @@ footer .content-wrapper {
 #hero .content-wrapper {
   width: 100%;
   min-height: 125px;
-
 }
 
 #hero .content-wrapper h1 {
@@ -726,36 +714,6 @@ footer .content-wrapper {
   padding-left: 20px;
 }
 
-
-
-/* ---------- Main (Hero) ----------*/
-
-/*
-#hero {
-  border-bottom: 10px solid #FFE693;
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
-  align-items: center;
-  background: url('../img/hero-tulips-cr.jpg') center no-repeat #FFe693;
-  background-size: cover;
-  min-height: 125px;
-}
-
-#hero .content-wrapper {
-  border-radius: 4px;
-  display: flex;
-  background-color: rgba(255, 255, 255, 0.85);
-  width: 95%; 
-}
-
-#hero h1 {
-  color: #E26E6E;
-  font-weight: 700;
-}
-
-
-*/
 
 
 
@@ -767,39 +725,21 @@ footer .content-wrapper {
   padding: 100px 40px 100px 40px;
 }
 
-
 .main-top  {
     border-bottom: 10px solid #FFE693;
 }
-
 
 .main-top img {
   display: flex;
   max-width: 250px;
 }
 
-
-
-
-
 .main-top .paragraphs { 
   max-width: 60%;
 }
 
-
-
-
-.main-top .paragraphs {
-
-  width: ;
-}
-
-
-
-
 .main-top .main-flex-container {
   justify-content: space-between;
-
 }
 
 
@@ -831,7 +771,6 @@ main .box-wrapper figure {
 
 
 
-
 #mobile-content { 
   display:none; 
 }
@@ -857,7 +796,6 @@ main .box-wrapper figure {
 .main-flex-container {
   min-width: 960px;
 }
-
 
 header .content-wrapper {
   min-height: 200px;
@@ -893,7 +831,6 @@ h2 {
 
 .main-top .paragraphs {
   max-width: 60%;
-  
 }
 
 .main-top .welcome-img {
@@ -922,8 +859,6 @@ h2 {
 .store-images .box-wrapper p {
   max-width: 550px;
 }
-
-
 
 .store .content-wrapper .paragraphs {
   max-width: 65%;
