@@ -444,7 +444,9 @@ main .box-3 {
 
 /* ---------- Main Contact / Directions ---------- */
 
-
+#directions p {
+  font-family: 'Nunito Sans'; sans-serif;
+}
 
 #directions .form {
   width: 100%;
