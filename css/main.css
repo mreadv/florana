@@ -167,7 +167,6 @@ address {
 
 header,
 footer {
-  
   display: flex;
   justify-content: center;
   align-items: left;
@@ -182,6 +181,7 @@ footer {
 
 header {
   padding: 15px 0 0 0;
+  
 }
 
 header .content-wrapper {
@@ -272,6 +272,12 @@ header nav ul li {
 
 /* ---------- Main (Welcome) ----------*/
 
+/*
+----- If you want to add the yellow border to mobile store and contact page. Sort of looks odd against the pink so not included, but included below hero image on about.
+.main-top {
+  border-top: 10px solid #FFE693;
+}
+*/
 
 main img  {
   border: 3px solid #E26E6E;
@@ -320,6 +326,10 @@ footer {
 footer .content-wrapper {
   margin: 0;
   padding: 50px 0 50px  0;
+}
+
+footer {
+  border-top: 10px solid #FFE693;
 }
 
 footer .footer-content h2 {
@@ -389,6 +399,12 @@ footer .social a {
 
 /* ---------- Main (Store) ---------- */
 
+
+
+main .store {
+  border-bottom: 10px solid #FFE693;
+}
+
 main .store-images {
   display: flex;
   align-items: center;
@@ -444,8 +460,9 @@ main .box-3 {
 
 /* ---------- Main Contact / Directions ---------- */
 
-#directions p {
-  font-family: 'Nunito Sans'; sans-serif;
+
+.map  {
+  border-top: 10px solid #FFE693;
 }
 
 #directions .form {
@@ -738,10 +755,6 @@ footer .content-wrapper {
   padding: 100px 40px 100px 40px;
 }
 
-.main-top  {
-    border-bottom: 10px solid #FFE693;
-}
-
 .main-top img {
   display: flex;
   max-width: 250px;
@@ -786,6 +799,7 @@ main .box-wrapper figure {
 .map figure {
   padding-bottom: 45.5%;
 }
+
 
 
 
