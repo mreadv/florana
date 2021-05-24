@@ -681,7 +681,9 @@ p {
 
 
 header nav ul li a {
-  color: #626262;
+  color: #E26E6E;
+  font-weight: bold;
+  
 }
 
 header nav ul li a:hover {
