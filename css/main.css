@@ -262,10 +262,27 @@ header nav ul li {
 
 #hero h1 {
   font-weight: 300;
+  margin-bottom: 0;
   padding: 0;
 }
 
+#hero .call-to-action {
+  justify-content: center;
+  display: flex;
+  margin: 0;
+  width: 100%;
+}
 
+#hero p {
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 0px;
+}
+
+#hero .call-to-action span {
+  font-style: italic;
+  font-weight: bold;
+
+}
 
 
 
@@ -748,7 +765,7 @@ footer .content-wrapper {
 
 #hero .content-wrapper h1 {
   font-size: 2.125em;
-  padding-left: 20px;
+  
 }
 
 
